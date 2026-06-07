@@ -150,13 +150,3 @@ Should return optimized maintenance schedules with selected vehicles and total i
 ✅ **API Integration:** Uses Bearer token authentication  
 ✅ **Optimization:** Greedy algorithm for vehicle selection  
 ✅ **Code Organization:** Clean separation of concerns  
-
-## Notes
-
-- All sensitive tokens are stored in environment variables (credentials handled securely)
-- The scheduler uses a greedy approach; a dynamic programming (0/1 knapsack) solution would provide optimal results but trades off complexity for a near-optimal solution
-- Logging is integrated throughout the request lifecycle for observability
-
----
-
-**Submission Date:** 2026-06-07
